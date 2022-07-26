@@ -161,12 +161,23 @@ hr {
 }
 
 .happy-health-section h2{
-    text-align: right;
+    text-align: center;
 }
 
-.happy-health-section p{
-    text-align: right;
+.happy-health-section  p{
+    text-align: center;
+    margin-bottom: 50px;
 }
+
+.style-community-section h2{
+    text-align: center;
+}
+
+.style-community-section  p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
 
 #benefits-heading{
     text-align: center;
