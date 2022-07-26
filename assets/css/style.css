@@ -59,12 +59,17 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*hero-image*/
+/*hero-image & mission text */
 
 #hero-outer {
     height: 825px;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
+    position: relative;
+}
+
+#mission-text, #mission-text h2 {
+    color: black;
 }
 
 #hero-image {
@@ -88,4 +93,24 @@ animation-fill-mode: forwards;
     to{
         transform: scale(1.1);
     }
+}
+
+#mission-text {
+    font-size: 130%;
+    font-family: Abril Fatface, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(127,255,212, .7);
+
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
+
 }
