@@ -115,3 +115,15 @@ animation-fill-mode: forwards;
     position: absolute;
 
 }
+
+/* benefits */
+
+#benefits {
+    height: 825px;
+}
+
+#happy-left {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+}
