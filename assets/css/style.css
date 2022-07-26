@@ -152,3 +152,11 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
+.style-community-section{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
