@@ -198,3 +198,20 @@ border-radius: 5%;
     background: url('../images/center-image-home.jpg') no-repeat center center;
     height: 100%;
 }
+
+/* Events Section */
+
+#coffee-morning {
+    background: url('../images/coffee-morning.jpg') no-repeat center center;
+    height: 100%;
+    overflow: hidden;
+    color: #fafafa;
+}
+
+#events div {
+    color: #fafafa;
+    background-color: 0, 0, 0, 0.6;
+    width: 20%;
+    height: 300px;
+    float: left;
+}
