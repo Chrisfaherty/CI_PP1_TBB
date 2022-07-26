@@ -145,18 +145,17 @@ hr {
     margin: 5px;
 }
 
-.happy-health-section{
+.happy-health-section, .style-community-section {
     width: 60%;
-    float: right;
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
 }
 
+.happy-health-section{
+    float: right;
+}
+
 .style-community-section{
-    width: 60%;
     float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
 }
