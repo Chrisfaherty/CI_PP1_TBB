@@ -124,25 +124,24 @@ animation-fill-mode: forwards;
 
 #happy-health-left {
     padding-top: 30px;
-    width: 25%;
+    width: 33%;
     float: left;
 }
 
 #style-community-right {
     padding-top: 30px;
-    width: 25%;
+    width: 33%;
     float: right;
 }
 
 #image-center {
-    padding-top: 30px;
-    width: 35%;
-    margin: 0 0 0 ;
+    width: 33%;
+    margin: 0 auto ;
 }
 
 hr {
     border-top: 1px solid #3a3a3a;
-    width: 25%;
+    width: 100%;
     margin: 5px;
 }
 
