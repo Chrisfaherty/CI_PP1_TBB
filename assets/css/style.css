@@ -127,3 +127,9 @@ animation-fill-mode: forwards;
     width: 33%;
     float: left;
 }
+
+#style-right {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
