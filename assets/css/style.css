@@ -139,6 +139,12 @@ animation-fill-mode: forwards;
     margin: 0 auto;
 }
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 25%;
+    margin: 5px;
+}
+
 .happy-left-section{
     width: 60%;
     float: right;
