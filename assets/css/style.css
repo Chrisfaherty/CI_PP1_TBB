@@ -122,21 +122,22 @@ animation-fill-mode: forwards;
     height: 825px;
 }
 
-#happy-left {
+#happy-health-left {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: left;
 }
 
-#style-right {
+#style-community-right {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: right;
 }
 
-#health-center {
-    width: 33%;
-    margin: 0 auto;
+#image-center {
+    padding-top: 30px;
+    width: 35%;
+    margin: 0 0 0 ;
 }
 
 hr {
@@ -145,7 +146,7 @@ hr {
     margin: 5px;
 }
 
-.happy-left-section{
+.happy-health-section{
     width: 60%;
     float: right;
     line-height: 20px;
