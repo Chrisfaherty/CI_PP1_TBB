@@ -275,10 +275,10 @@ footer{
 
 /* For larger screens down to 1700px */
 
-@media  screen and (max-width: 1700px) {
+@media  screen and (max-width: 1200px) {
     #benefits{
         width: 65%;
-        height: 1700px;
+        height: 1200px;
         margin: 0 auto;
     }
 
@@ -297,6 +297,13 @@ footer{
         clear: both;
         width: 100%;
         float: left;
+        padding: 0;
+    }
+
+    #events > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
         padding: 0;
     }
 
