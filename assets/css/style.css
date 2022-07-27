@@ -316,4 +316,26 @@ footer{
         margin-bottom: 30px;
         line-height: 25px;
     }
+
+    #mission-text {
+        left:0;
+
+    }
+
+    #benefits {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+
+    }
+
+    .happy-health-section, .style-community-section {
+        width: inherit;
+
+    }
+
+    .happy-health-section h2, .style-community-section h2 {
+        width: 100%;
+        text-align: center;
+    }
 }
