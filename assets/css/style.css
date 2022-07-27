@@ -257,3 +257,16 @@ footer{
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Memory Lane */
+
+#memory-lane-photos {
+    clear: both;
+    line-height: 0;
+    column-count: 2;
+    column-gap: 0;
+}
+
+#memory-lane-photos > img {
+    width: 100%;
+}
