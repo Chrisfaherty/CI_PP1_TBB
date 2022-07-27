@@ -307,9 +307,17 @@ footer{
         padding: 0;
     }
 
+    #about-us-section img {
+        max-width: 100%; 
+        height: auto;
+        
+        }
+
     hr{
         display: none;
     }
+
+    
 }
 
 /* For screens 950px and smaller */
@@ -365,30 +373,10 @@ footer{
 
 /* About Us page */
 
-#family-image {
-    width: 45%;
-    height: 825px;
-    padding: 10px;
-    border: 1px solid #252525;
-    border-radius: 5%;
-    display: inline-block;
-    margin-top: 30px;
-    margin-left: 10px;
-    }
+#about-us-section div{
+    text-align: center;
     
-    #family-image-bg {
-        background: url('../images/about-us/family-image.png') no-repeat center center;
-        height: 100%;
-        border-radius: 5%;
     }
 
-#about-us-text {
-    margin-top: 30px;
-    width: 40%;
-    float: right;
-    font-size: 200%;
-    text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 
