@@ -408,10 +408,11 @@ footer{
 }
 
 #center-about{
-    margin: 0 auto:
+    margin: 0 auto;
 }
 
 .location {
+text-align: center;
 overflow: hidden;
 margin-top: 30px;
 padding-bottom: 70%;
@@ -426,3 +427,30 @@ height: 0;
     width: 100%;
     position: absolute;
 }
+
+.contact {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 30px;
+    padding-bottom: 70%;
+    position: relative;
+    height: 0;
+    }
+#right-about h2 {
+    margin-bottom: 30px;
+
+}
+#right-about h3 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#right-about p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
