@@ -186,9 +186,9 @@ hr {
 }
 
 #image-center-section {
-width: 500px;
-height: 500px;
-padding: 30px;
+width: 320px;
+height: 320px;
+padding: 10px;
 border: 1px solid #252525;
 margin: 0 auto;
 border-radius: 5%;
@@ -337,5 +337,10 @@ footer{
     .happy-health-section h2, .style-community-section h2 {
         width: 100%;
         text-align: center;
+    }
+
+    .happy-health-section p, .style-community-section p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
