@@ -389,6 +389,20 @@ footer{
     margin-right: 10%;
 }
 
+/* Contact Page */
+
+#contact-location {
+    float: left;
+    max-width: 49%;
+    height: 825px;
+    padding: 10px;
+}
+
+#contact-info {
+    float: right;
+    max-width: 49%;
+}
+
 
 
 
