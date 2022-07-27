@@ -239,7 +239,7 @@ border-radius: 5%;
 /*footer styling*/
 
 footer{
-    height: 150px;
+    max-height: 150px;
 
 }
 
@@ -273,9 +273,9 @@ footer{
 
 /* Media Queries for responsive design */
 
-/* For larger screens down to 1200px */
+/* For larger screens down to 1250px */
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1250px) {
     #benefits{
         width: 65%;
         height: 1200px;
@@ -310,14 +310,32 @@ footer{
     #about-us-section img {
         max-width: 100%; 
         height: auto;
-        
         }
 
     hr{
         display: none;
     }
 
-    
+    #location-section {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #location-heading, #contact-heading {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #location-div, #contact-div{
+        width: 100%;
+        padding: 0;
+    }
+    #location-section{
+        height: 1000px;
+        display: inline-block;
+    }
+
 }
 
 /* For screens 950px and smaller */
@@ -361,6 +379,8 @@ footer{
     #memory-lane-photos {
         column-count: 3;
     }
+
+
 }
 
 @media screen and (max-width: 800px){
@@ -391,66 +411,64 @@ footer{
 
 /* Contact Page */
 
-#contact-section {
-    height: 825px;
+#location-section{
+    height: 1000px;
 }
 
-#left-about{
-    padding: 30px;
-    width: 45%;
-    float: left;
-}
-
-#right-about{
-    padding: 30px;
-    width: 45%;
-    float: right;
-}
-
-#center-about{
-    margin: 0 auto;
-}
-
-.location {
-text-align: center;
-overflow: hidden;
-margin-top: 30px;
-padding-bottom: 70%;
-position: relative;
-height: 0;
-}
-
-.location iframe {
-    left: 0;
-    top: 10%;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
-.contact {
+.parent {
     text-align: center;
-    overflow: hidden;
-    margin-top: 30px;
-    padding-bottom: 70%;
-    position: relative;
-    height: 0;
-    }
-#right-about h2 {
+   
+}
+
+.child {
+    vertical-align: top;
+    margin: 30px;
+    display: inline-block;
+}
+#contact-div{
+    height: 100%;
+    width: 45%;
+    padding-bottom: 10%;
+}
+
+
+#location-div{
+    height: 100%;
+    width: 45%;
     margin-bottom: 30px;
 
 }
-#right-about h3 {
-    margin-bottom: 10px;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 150%;
+
+#location-div iframe{
+    height: 60%;
+    width: 45%;
+    left: 5%;
+    position:absolute;
+
 }
 
-#right-about p {
-    margin-bottom: 10px;
-    margin-top: 10px;
+#location-div, #contact-div{
+    padding-top: 30px;
+    margin-bottom: 20px;
 }
+
+#location-heading, #contact-heading {
+    text-align: center;
+}
+
+#contact-div h2{
+    margin-bottom: 30px;
+}
+
+#contact-div h3{
+    margin-top :40px;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+
+
 
 
 
