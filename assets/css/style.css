@@ -273,7 +273,7 @@ footer{
 
 /* Media Queries for responsive design */
 
-/* For larger screens down to 1700px */
+/* For larger screens down to 1200px */
 
 @media  screen and (max-width: 1200px) {
     #benefits{
@@ -350,4 +350,15 @@ footer{
         text-align: center;
         padding: 0 20px;
     }
+    #memory-lane-photos {
+        column-count: 3;
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    #memory-lane-photos {
+        column-count: 2;
+    }
+    
 }
