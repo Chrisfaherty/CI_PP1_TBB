@@ -375,8 +375,20 @@ footer{
 
 #about-us-section div{
     text-align: center;
-    
     }
+
+#about-us-text-section h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#about-us-text-section p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 
 
 
