@@ -270,3 +270,37 @@ footer{
 #memory-lane-photos > img {
     width: 100%;
 }
+
+/* Media Queries for responsive design */
+
+/* For larger screens down to 1700px */
+
+@media  screen and (max-width: 1700px) {
+    #benefits{
+        width: 65%;
+        height: 1700px;
+        margin: 0 auto;
+    }
+
+    #benefits-heading {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #happy-health-left, #style-community-right{
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #image-center{
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr{
+        display: none;
+    }
+}
