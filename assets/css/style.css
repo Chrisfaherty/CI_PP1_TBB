@@ -166,18 +166,15 @@
         #coffee-morning {
                 background: url('../images/coffee-morning.jpg') no-repeat center center;
                 height: 100%;
-                overflow: hidden;
-                opacity: 90%;}
+                overflow: hidden;}
         #park-walk {
                 background: url('../images/park-walk.jpg') no-repeat center center;
                 height: 100%;
-                overflow: hidden;
-                opacity: 90%;}
+                overflow: hidden;}
         #movie-night {
                 background: url('../images/movie-night.jpg') no-repeat center center;
                 height: 100%;
-                overflow: hidden;
-                opacity: 90%;}
+                overflow: hidden;}
         #events div{
                 color: #fafafa;
                 width: 20%;
@@ -189,6 +186,9 @@
                 box-sizing: border-box;}
         #events h2 {
                 color: #fafafa;}
+        #events h3 {
+                font-weight: 800;
+        }
 /* Contact section on the home page*/
         #contact-heading-section{
     height: 50px;}
@@ -303,6 +303,7 @@ footer{
         #pricing{
                 width: 65%;
                 margin: 0 auto;}
+                
         #pricing > div {
                 width: 100%;
                 clear: both;
@@ -314,7 +315,8 @@ footer{
                 font-size: 200%;}
         #events h1{
                 font-size: 200%;
-                text-align: center;}
+                text-align: center;
+            margin-top: 600px;}
         #events > div {
                 width: 100%;
                 clear: both;
@@ -464,7 +466,9 @@ footer{
                 font-size: 90%;}
 /*scale down text on events section*/                 
         #events h1{
-                font-size: 130%;}
+                font-size: 130%;
+                padding: 0;
+                margin-top: 420px;}
         #events h2, h3{
                 font-size: 90%;}
 
