@@ -336,7 +336,7 @@ footer{
         display: inline-block;
     }
 
-    #packages, #pricing > div {
+    #packages > div {
         width: 100%;
         clear: both;
         height: 150px;
@@ -542,30 +542,3 @@ footer{
     margin-top: 20px;
 }
 
-#pricing {
-    height: 150px;
-    margin-left: 20%;
-    margin-top: -100px;
- 
-}
-
-#pricing div {
-    vertical-align: top;
-    background-color: #fafafa;
-    color: #252525;
-    width: 300px;
-    height: 50px;
-    display:inline-block;
-    text-align: center;
-    margin-left: 50px;
-    border: 2px solid #252525;
-    border-radius: 5%;
-    padding-bottom: 30px;
-
-}
-
-#pricing h3{
-    font-weight: bold;
-    font-size: 150%;
-    margin-top: 20px;
-}
