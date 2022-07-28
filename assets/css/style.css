@@ -330,67 +330,68 @@ footer{
 
 /* For screens 950px and smaller */
 
-@media screen and (max-width: 950px) {
+    @media screen and (max-width: 950px) {
 
-    #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 30px;
-        line-height: 25px;
+        #menu{
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            line-height: 25px;
+        }
+
+        #mission-text {
+            left:0;
+
+        }
+
+        #benefits {
+            width: 90%;
+            height: 1200px;
+            margin: 0 auto;
+
+        }
+
+        .happy-health-section, .style-community-section {
+            width: inherit;
+
+        }
+
+        .happy-health-section h2, .style-community-section h2 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .happy-health-section p, .style-community-section p {
+            text-align: center;
+            padding: 0 20px;
+        }
+        #memory-lane-photos {
+            column-count: 3;
+        }
+        
+        #packages > div {
+            width: 100%;
+            clear: both;
+            height: 150px;
+            padding: 0;}
     }
-
-    #mission-text {
-        left:0;
-
+/* To cover screen widths up to a maximum of 400px*/
+    @media screen and (max-width: 800px){
+         /* Gallery photo columns*/
+        #memory-lane-photos {
+            column-count: 2;
+        }
     }
-
-    #benefits {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-
-    }
-
-    .happy-health-section, .style-community-section {
-        width: inherit;
-
-    }
-
-    .happy-health-section h2, .style-community-section h2 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .happy-health-section p, .style-community-section p {
-        text-align: center;
-        padding: 0 20px;
-    }
-    #memory-lane-photos {
-        column-count: 3;
-    }
-    
-    #packages > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;}
-}
-
-@media screen and (max-width: 800px){
-    
-    #memory-lane-photos {
-        column-count: 2;
-    }
-}
-
-@media screen and (max-width: 400px){
-    
-    #logo {
-        font-size: 130%;
-    }
-}
-
+/* To cover screen widths up to a maximum of 400px*/
+    @media screen and (max-width: 400px){
+        /* logo font size scale*/
+        #logo { font-size: 130%;}
+        #menu {  font-size: 80%;
+                letter-spacing: 2px;
+                text-align: left;}
+        #menu li {margin-right: 10px;}
+        }
 /* About Us page */
 
 #about-us-section div{
