@@ -344,7 +344,15 @@ footer{
     /*Scale down benefits heading font size below 400px*/
         #benefits-heading{
             font-size: 130%;}
-
+    /*Scale down benefits text font size below 400px*/
+        .happy-health-section h2{
+            font-size: 90%;}
+        .happy-health-section  p{
+            font-size: 80%;}
+        .style-community-section h2{
+            font-size: 90%;}
+        .style-community-section  p{
+            font-size: 80%;}
         }
 /* About Us page */
 
