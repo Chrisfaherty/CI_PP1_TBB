@@ -56,69 +56,69 @@
                 to{transform: scale(1.1);}}
 /*Styling for the mission text that is overlayed on the hero image*/
         #mission-text {
-            font-size: 130%;
-            font-family: Abril Fatface, sans-serif;
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            width: 300px;
-            height: 200px;
-            padding-top: 40px;
-            padding-left: 10px;
-            background-color: rgba(127,255,212, .7);
-            bottom: 30px;
-            right: 150px;
-            position: absolute;}
+                font-size: 130%;
+                font-family: Abril Fatface, sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                width: 300px;
+                height: 200px;
+                padding-top: 40px;
+                padding-left: 10px;
+                background-color: rgba(127,255,212, .7);
+                bottom: 30px;
+                right: 150px;
+                position: absolute;}
 /* benefits */
         #benefits {
-            height: 825px;}
+                height: 825px;}
         #happy-health-left {
-            padding-top: 30px;
-            width: 33%;
-            float: left;}
+                padding-top: 30px;
+                width: 33%;
+                float: left;}
         #style-community-right {
-            padding-top: 30px;
-            width: 33%;
-            float: right;}
+                padding-top: 30px;
+                width: 33%;
+                float: right;}
         #image-center {
-            width: 33%;
-            margin: 0 auto;}
+                width: 33%;
+                margin: 0 auto;}
         hr {
-            border-top: 1px solid #3a3a3a;
-            width: 100%;
-            margin: 5px;}
+                border-top: 1px solid #3a3a3a;
+                width: 100%;
+                margin: 5px;}
         .happy-health-section, .style-community-section {
-            width: 60%;
-            line-height: 20px;
-            clear: both;
-            margin-bottom: 50px;}
+                width: 60%;
+                line-height: 20px;
+                clear: both;
+                margin-bottom: 50px;}
         .happy-health-section{
-            float: right;}
+                float: right;}
         .style-community-section{
-            float: left;}
+                float: left;}
         .happy-health-section h2{
-            text-align: center;}
+                text-align: center;}
         .happy-health-section  p{
-            text-align: center;
-            margin-bottom: 50px;}
+                text-align: center;
+                margin-bottom: 50px;}
         .style-community-section h2{
-            text-align: center;}
+                text-align: center;}
         .style-community-section  p{
-            text-align: center;
-            margin-bottom: 50px;}
+                text-align: center;
+                margin-bottom: 50px;}
         #benefits-heading{
-            text-align: center;
-            margin: 20px 0;
-            font-size: 280%;}
+                text-align: center;
+                margin: 20px 0;
+                font-size: 280%;}
         #image-center-section {
-            width: 320px;
-            height: 320px;
-            padding: 10px;
-            border: 1px solid #252525;
-            margin: 0 auto;
-            border-radius: 5%;}
+                width: 320px;
+                height: 320px;
+                padding: 10px;
+                border: 1px solid #252525;
+                margin: 0 auto;
+                border-radius: 5%;}
         #image-center-section-bg {
-            background: url('../images/center-image-home.jpg') no-repeat center center;
-            height: 90%;}
+                background: url('../images/center-image-home.jpg') no-repeat center center;
+                height: 90%;}
 
 /* Events Section */
 
@@ -346,13 +346,27 @@ footer{
             font-size: 130%;}
     /*Scale down benefits text font size below 400px*/
         .happy-health-section h2{
-            font-size: 90%;}
+            font-size: 90%;
+            margin-bottom: 5px;}
         .happy-health-section  p{
-            font-size: 80%;}
+            font-size: 80%;
+            margin-bottom: 15px;}
         .style-community-section h2{
-            font-size: 90%;}
+            font-size: 90%;
+            margin-bottom: 5px;}
         .style-community-section  p{
-            font-size: 80%;}
+            font-size: 80%;
+            margin-bottom: 15px;}
+    /*Scale down center image*/
+    #image-center-section {
+        width: 220px;
+        height: 147px;
+        border: 1px solid #252525;
+        border-radius: 5%;}
+    #image-center-section-bg {
+        background: url('../images/image-center-220px.jpg') no-repeat center center;
+        height: 90%;
+
         }
 /* About Us page */
 
