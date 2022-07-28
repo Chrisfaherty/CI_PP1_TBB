@@ -35,12 +35,11 @@
         .active {
                 border-bottom: 1px solid #3a3a3a;}
 /*hero-image & mission text */
-    #hero-outer {
-        height: 825px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
+        #hero-outer {
+            height: 825px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;}
     #mission-text, #mission-text h2 {
         color: black;
     }
@@ -372,13 +371,22 @@ footer{
     }
 /* To cover screen widths up to a maximum of 400px*/
     @media screen and (max-width: 400px){
-        /* logo font size scale*/
-        #logo { font-size: 130%;}
-        /* Menu size scale*/
-        #menu {  font-size: 80%;
-                letter-spacing: 2px;
-                text-align: left;}
-        #menu li {margin-right: 10px;}
+    /* logo font size scale*/
+        #logo { 
+            font-size: 130%;}
+    /* Menu size scale*/
+        #menu {
+            font-size: 80%;
+            letter-spacing: 2px;
+            text-align: left;}
+        #menu li {
+            margin-right: 10px;}
+
+    /*Hero Image disapear below 400px*/
+        #hero-outer {
+            display: none;}
+
+
         }
 /* About Us page */
 
