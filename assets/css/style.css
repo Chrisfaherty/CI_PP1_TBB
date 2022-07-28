@@ -536,3 +536,29 @@ footer{
     margin-top: 20px;
 }
 
+#priceing {
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 20%;
+ 
+}
+
+#priceing div {
+    vertical-align: top;
+    background-color: #fafafa;
+    color: #252525;
+    width: 300px;
+    height: 500px;
+    display:inline-block;
+    text-align: center;
+    margin-left: 50px;
+    border: 2px solid #252525;
+    border-radius: 5%;
+
+}
+
+#priceing h3{
+    font-weight: bold;
+    font-size: 150%;
+    margin-top: 20px;
+}
