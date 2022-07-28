@@ -471,14 +471,15 @@ footer{
 /* Packages */
 
 #pricing-heading-section{
-    height: 50px;
+    height: 150px;
     margin-top: 30px;
     margin-bottom: 30px;
-
 }
 
+
+
 #packages {
-    height: 1000px;
+    height: 800px;
     margin-top: 30px;
     margin-left: 20%;
  
@@ -507,6 +508,13 @@ footer{
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+}
+
+#pricing-text{
+    height: 50px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
 }
 
 
