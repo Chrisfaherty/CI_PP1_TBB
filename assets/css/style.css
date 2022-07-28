@@ -159,68 +159,20 @@
         #pricing h2, h3{
                 margin-top: 10px;
                 text-align: center;}
-/* Contact section on the home page*/
-        #contact-heading-section{
-                height: 50px;}
-        #contact-heading-text h1{
+/* Events Section */
+        #events h1{
                 font-size: 280%;
                 text-align: center;}
-        #location-section{
-                height: 850px;
-                margin-top: 30px;}
-        .parent {
-                text-align: center;}
-        .child {
-                vertical-align: top;
-                margin: 30px;
-                display: inline-block;}
-        #contact-div{
-                height: 100%;
-                width: 45%;
-                padding-bottom: 10%;}
-        #location-div{
-                height: 100%;
-                width: 45%;
-                margin-bottom: 30px;}
-        #location-div iframe{
-                height: 60%;
-                width: 45%;
-                left: 5%;
-                position:absolute;}
-        #location-div, #contact-div{
-                padding-top: 30px;
-                margin-bottom: 20px;}
-        #location-heading, #contact-heading {
-                text-align: center;}
-        #contact-div h2{
-                margin-bottom: 30px;}
-        #contact-div h3{
-                margin-top :40px;
-                font-weight: bold;
-                font-size: 150%;
-                margin-bottom: 20px;}
-        #contact-heading-text{
-                text-align: center;
-                margin: 20px 0;
-                font-size: 280%;}
-        #contact-text{
-                height: 50px;
-                text-align: center;
-                margin: 20px 0;
-                font-size: 200%;}
-/* Events Section */
         #coffee-morning {
                 background: url('../images/coffee-morning.jpg') no-repeat center center;
                 height: 100%;
                 overflow: hidden;
                 opacity: 90%;}
-
         #park-walk {
                 background: url('../images/park-walk.jpg') no-repeat center center;
                 height: 100%;
                 overflow: hidden;
                 opacity: 90%;}
-
         #movie-night {
                 background: url('../images/movie-night.jpg') no-repeat center center;
                 height: 100%;
@@ -237,6 +189,55 @@
                 box-sizing: border-box;}
         #events h2 {
                 color: #fafafa;}
+/* Contact section on the home page*/
+        #contact-heading-section{
+    height: 50px;}
+#contact-heading-text h1{
+    font-size: 280%;
+    text-align: center;}
+#location-section{
+    height: 850px;
+    margin-top: 30px;}
+.parent {
+    text-align: center;}
+.child {
+    vertical-align: top;
+    margin: 30px;
+    display: inline-block;}
+#contact-div{
+    height: 100%;
+    width: 45%;
+    padding-bottom: 10%;}
+#location-div{
+    height: 100%;
+    width: 45%;
+    margin-bottom: 30px;}
+#location-div iframe{
+    height: 60%;
+    width: 45%;
+    left: 5%;
+    position:absolute;}
+#location-div, #contact-div{
+    padding-top: 30px;
+    margin-bottom: 20px;}
+#location-heading, #contact-heading {
+    text-align: center;}
+#contact-div h2{
+    margin-bottom: 30px;}
+#contact-div h3{
+    margin-top :40px;
+    font-weight: bold;
+    font-size: 150%;
+    margin-bottom: 20px;}
+#contact-heading-text{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;}
+#contact-text{
+    height: 50px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;}
 
 /*footer styling*/
 
@@ -311,6 +312,14 @@ footer{
                 margin-left: 10px;}
         #pricing h1{
                 font-size: 200%;}
+        #events h1{
+                font-size: 200%;
+                text-align: center;}
+        #events > div {
+                width: 100%;
+                clear: both;
+                height: 150px;
+                padding: 0;}
         #contact-heading-section h1{
                 font-size: 200%;
                 text-align: center;
@@ -318,11 +327,6 @@ footer{
                 margin-top: 600px;}
         #contact-heading-section h3{
                 font-size: 90%;}
-        #events > div {
-                width: 100%;
-                clear: both;
-                height: 150px;
-                padding: 0;}
         #location-section {
                 width: 50%;
                 height: 600px;
@@ -458,6 +462,12 @@ footer{
                 margin-top: 500px;}
         #contact-heading-section h2{
                 font-size: 90%;}
+/*scale down text on events section*/                 
+        #events h1{
+                font-size: 130%;}
+        #events h2, h3{
+                font-size: 90%;}
+
         }
         
 
