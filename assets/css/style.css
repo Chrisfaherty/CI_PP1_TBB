@@ -120,6 +120,10 @@
                 background: url('../images/center-image-home.jpg') no-repeat center center;
                 height: 90%;}
 /* Pricing section on the home page*/
+        #pricing h1{
+                font-size: 280%;
+                text-align: center;}
+                
         #seasonal {
                 background-color: #fafafa;
                 height: 100%;
@@ -147,6 +151,12 @@
                 border: 2px solid #252525;
                 border-radius: 5%;
                 box-sizing: border-box;}
+        #pricing li{
+                margin-top: 10px;}
+        #pricing h2, h3{
+                margin-top: 10px;
+                text-align: center;}
+
 
 
 /* Events Section */
@@ -227,40 +237,44 @@ footer{
 
 @media  screen and (max-width: 1250px) {
     
-    #logo{
-        font-size: 200%;
-    }
+        #logo{
+                font-size: 200%;}
+        #benefits{
+                width: 65%;
+                height: 1200px;
+                margin: 0 auto;}
+        #benefits h1{
+                font-size: 200%;}
+        #benefits-heading {
+                padding: 30px 0;
+                margin: 0;}
+        #happy-health-left, #style-community-right{
+                width: 100%;
+                float: left;
+                padding: 0;}
+        #image-center{
+                clear: both;
+                width: 100%;
+                float: left;
+                padding: 0;}
+        #pricing{
+                width: 65%;
+                margin: 0 auto;}
+        #pricing > div {
+                width: 100%;
+                clear: both;
+                height: auto;
+                padding: 0;}
+        #pricing li{
+                margin-left: 10px;}
+        #pricing h1{
+                    font-size: 200%;}
+        #events > div {
+                width: 100%;
+                clear: both;
+                height: 150px;
+                padding: 0;}
 
-    #benefits{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #benefits-heading {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #happy-health-left, #style-community-right{
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #image-center{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #events > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
 
     #about-us-section img {
         max-width: 100%; 
@@ -290,13 +304,6 @@ footer{
         height: 1000px;
         display: inline-block;
     }
-
-    #packages > div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;}
-
 }
 
 /* For screens 950px and smaller */
@@ -341,11 +348,6 @@ footer{
             column-count: 3;
         }
         
-        #packages > div {
-            width: 100%;
-            clear: both;
-            height: 150px;
-            padding: 0;}
     }
 /* To cover screen widths up to a maximum of 800px*/
     @media screen and (max-width: 800px){
@@ -371,7 +373,7 @@ footer{
         #hero-outer {
             display: none;}
     /*Scale down benefits heading font size below 400px*/
-        #benefits-heading{
+        #benefits h1{
             font-size: 130%;}
     /*Scale down benefits text font size below 400px*/
         .happy-health-section h2{
@@ -395,7 +397,17 @@ footer{
         #image-center-section-bg {
             background: url('../images/image-center-220px.jpg') no-repeat center center;
             height: 90%;}
+
+/*scale down text on pricing section*/
+        #pricing h2, h3{
+                font-size: 90%;}
+        #pricing li{
+                font-size: 80%;}
+        #pricing h1{
+                font-size: 130%;
+                padding: 0;}
         }
+
 /* About Us page */
 
 #about-us-section div{
