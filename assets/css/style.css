@@ -36,51 +36,38 @@
                 border-bottom: 1px solid #3a3a3a;}
 /*hero-image & mission text */
         #hero-outer {
-            height: 825px;
-            width: 100%;
-            overflow: hidden;
-            position: relative;}
-    #mission-text, #mission-text h2 {
-        color: black;
-    }
-    #hero-image {
-    height: 825px;
-    width: 100%;
-    background: url('../images/hero-image.jpg')no-repeat center center;
-    /* animates zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    }
+                height: 825px;
+                width: 100%;
+                overflow: hidden;
+                position: relative;}
+        #mission-text, #mission-text h2 {
+                color: black;}
+        #hero-image {
+                height: 825px;
+                width: 100%;
+                background: url('../images/hero-image.jpg')no-repeat center center;
+                /* animates zoom effect on loading page */
+                animation-name: hero-zoom;
+                animation-duration: 5s;
+                animation-fill-mode: forwards;}
 /*creates the level of zoom for the hero image*/
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-#mission-text {
-    font-size: 130%;
-    font-family: Abril Fatface, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 300px;
-    height: 200px;
-
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: rgba(127,255,212, .7);
-
-    bottom: 30px;
-    right: 150px;
-    position: absolute;
-
-}
-
+        @keyframes hero-zoom {
+                from{transform: scale(1);}
+                to{transform: scale(1.1);}}
+/*Styling for the mission text that is overlayed on the hero image*/
+        #mission-text {
+            font-size: 130%;
+            font-family: Abril Fatface, sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            width: 300px;
+            height: 200px;
+            padding-top: 40px;
+            padding-left: 10px;
+            background-color: rgba(127,255,212, .7);
+            bottom: 30px;
+            right: 150px;
+            position: absolute;}
 /* benefits */
 
 #benefits {
@@ -385,7 +372,10 @@ footer{
     /*Hero Image disapear below 400px*/
         #hero-outer {
             display: none;}
-
+    /*Scale down benefits heading font size below 400px*/
+        #benefits-heading{
+            font-size: 130%;
+    }
 
         }
 /* About Us page */
