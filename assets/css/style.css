@@ -1,52 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-body{
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color:#3a3a3a;
-}
+        *{      margin: 0;
+        padding: 0;
+        border: none;}
+        body{   font-family: Lato, sans-serif;
+                font-weight: 300;
+                color:#3a3a3a;}
 /* Heading & logo */
-    h1, h2 {
-        font-family: Abril Fatface, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        color: #252525;
-    }
-    #logo {
-        float: left;
-        font-size: 250%;
-        margin-left: 30px;
-    }
+        h1, h2 {
+                font-family: Abril Fatface, sans-serif;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                color: #252525;}
+        #logo {
+                float: left;
+                font-size: 250%;
+                margin-left: 30px;}
 /* Navigation */
-    #menu{
-        font-size: 100%;
-        letter-spacing: 4px;
-        text-align: right;
-    }
-    #menu, #logo {
-        line-height: 75px;
-
-    }
-    #menu li {
-        display: inline-block;
-        list-style-type: none;
-        margin-right: 30px;
-    }
-    #menu a{
-        text-decoration: none;
-        color: inherit;
-    }
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
-    .active {
-        border-bottom: 1px solid #3a3a3a;
-    }
+        #menu{
+                font-size: 100%;
+                letter-spacing: 4px;
+                text-align: right;}
+        #menu, #logo {
+                line-height: 75px;}
+        #menu li {
+                display: inline-block;
+                list-style-type: none;
+                margin-right: 30px;}
+        #menu a{
+                text-decoration: none;
+                color: inherit;}
+        #menu a:hover {
+                border-bottom: 1px solid #3a3a3a;}
+        .active {
+                border-bottom: 1px solid #3a3a3a;}
 /*hero-image & mission text */
     #hero-outer {
         height: 825px;
