@@ -121,7 +121,7 @@
                 height: 90%;}
 
 /* Pricing section on the home page*/
-        #pricing-heading-section{
+        /* #pricing-heading-section{
                 margin-top: 0;
                 margin-bottom: 30px;}
         #packages {
@@ -133,7 +133,7 @@
                 background-color: #fafafa;
                 color: #252525;
                 width: 250px;
-                height: 500px;
+                height: 400px;
                 display:inline-block;
                 text-align: center;
                 margin-left: 30px;
@@ -159,7 +159,43 @@
                 font-weight: bold;
                 font-size: 150%;
                 vertical-align: bottom;
-        }            
+        }             */
+        #seasonal {
+            background-color: #fafafa;
+            height: 100%;
+            overflow: hidden;
+            opacity: 90%;
+        }
+        
+        #monthly {
+            height: 100%;
+            overflow: hidden;
+            opacity: 90%;
+        }
+        
+        #quarterly {
+            height: 100%;
+            overflow: hidden;
+            opacity: 90%;
+        }
+        #preminum {
+            height: 100%;
+            overflow: hidden;
+            opacity: 90%;
+        }
+        
+        #pricing div{
+            Background-color: #fafafa;
+            width: 25%;
+            height: 300px;
+            float: left;
+            padding: 30px 0 0 10px;
+            text-align: left;
+            border: 2px solid #252525;
+            border-radius: 5%;
+            box-sizing: border-box;
+        }
+
 
 /* Events Section */
 
