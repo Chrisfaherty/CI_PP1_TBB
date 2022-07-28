@@ -385,8 +385,12 @@ footer{
     #memory-lane-photos {
         column-count: 3;
     }
-
-
+    
+    #packages > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;}
 }
 
 @media screen and (max-width: 800px){
@@ -541,4 +545,3 @@ footer{
     font-size: 150%;
     margin-top: 20px;
 }
-
