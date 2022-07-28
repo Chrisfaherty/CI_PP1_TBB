@@ -161,14 +161,13 @@
                 text-align: center;}
 /* Contact section on the home page*/
         #contact-heading-section{
-                height: 50px;
-                }
-
+                height: 50px;}
         #contact-heading-text h1{
                 font-size: 280%;
                 text-align: center;}
         #location-section{
-                height: 850px;}
+                height: 850px;
+                margin-top: 30px;}
         .parent {
                 text-align: center;}
         .child {
@@ -209,43 +208,35 @@
                 text-align: center;
                 margin: 20px 0;
                 font-size: 200%;}
-
 /* Events Section */
+        #coffee-morning {
+                background: url('../images/coffee-morning.jpg') no-repeat center center;
+                height: 100%;
+                overflow: hidden;
+                opacity: 90%;}
 
-#coffee-morning {
-    background: url('../images/coffee-morning.jpg') no-repeat center center;
-    height: 100%;
-    overflow: hidden;
-    opacity: 90%;
-}
+        #park-walk {
+                background: url('../images/park-walk.jpg') no-repeat center center;
+                height: 100%;
+                overflow: hidden;
+                opacity: 90%;}
 
-#park-walk {
-    background: url('../images/park-walk.jpg') no-repeat center center;
-    height: 100%;
-    overflow: hidden;
-    opacity: 90%;
-}
-
-#movie-night {
-    background: url('../images/movie-night.jpg') no-repeat center center;
-    height: 100%;
-    overflow: hidden;
-    opacity: 90%;
-}
-
-#events div{
-    color: #fafafa;
-    width: 20%;
-    height: 300px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    border: 2px solid white;
-    box-sizing: border-box;
-}
-#events h2 {
-    color: #fafafa;
-}
+        #movie-night {
+                background: url('../images/movie-night.jpg') no-repeat center center;
+                height: 100%;
+                overflow: hidden;
+                opacity: 90%;}
+        #events div{
+                color: #fafafa;
+                width: 20%;
+                height: 300px;
+                float: left;
+                padding: 30px 0 0 10px;
+                text-align: center;
+                border: 2px solid white;
+                box-sizing: border-box;}
+        #events h2 {
+                color: #fafafa;}
 
 /*footer styling*/
 
@@ -319,13 +310,33 @@ footer{
         #pricing li{
                 margin-left: 10px;}
         #pricing h1{
-                    font-size: 200%;}
+                font-size: 200%;}
+        #contact-heading-section h1{
+                font-size: 200%;
+                text-align: center;
+                padding: 0;
+                margin-top: 600px;}
+        #contact-heading-section h3{
+                font-size: 90%;}
         #events > div {
                 width: 100%;
                 clear: both;
                 height: 150px;
                 padding: 0;}
-
+        #location-section {
+                width: 50%;
+                height: 600px;
+                margin: 0 auto;}
+        #location-heading, #contact-heading {
+                padding: 30px 0;
+                margin: 0;}
+         #location-div, #contact-div{
+                width: 100%;
+                padding: 0;}
+        #contact-section{
+                height: 600px;
+                width: 49%;
+                display: inline-block;}
 
     #about-us-section img {
         max-width: 100%; 
@@ -336,25 +347,7 @@ footer{
         display: none;
     }
 
-    #location-section {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
 
-    #location-heading, #contact-heading {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #location-div, #contact-div{
-        width: 100%;
-        padding: 0;
-    }
-    #location-section{
-        height: 1000px;
-        display: inline-block;
-    }
 }
 
 /* For screens 950px and smaller */
@@ -457,7 +450,16 @@ footer{
                 font-size: 130%;
                 padding: 0;
                 margin-top: -300px;}
+/*scale down text on contact section*/     
+        #contact-heading-section h1{
+                font-size: 130%;
+                text-align: center;
+                padding: 0;
+                margin-top: 500px;}
+        #contact-heading-section h2{
+                font-size: 90%;}
         }
+        
 
 /* About Us page */
 
