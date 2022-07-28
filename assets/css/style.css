@@ -470,6 +470,13 @@ footer{
 
 /* Packages */
 
+#pricing-heading-section{
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
 #packages {
     height: 1000px;
     margin-top: 30px;
@@ -482,7 +489,7 @@ footer{
     background-color: #fafafa;
     color: #252525;
     width: 300px;
-    height: 825px;
+    height: 500px;
     display:inline-block;
     text-align: center;
     margin-left: 50px;
