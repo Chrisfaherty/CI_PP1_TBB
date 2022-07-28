@@ -478,13 +478,15 @@ footer{
 
 #packages div {
     vertical-align: top;
-    background-color: aquamarine;
+    background-color: #fafafa;
     color: #252525;
     width: 15%;
     height: 500px;
     display:inline-block;
     text-align: center;
     margin-left: 50px;
+    border: 2px solid #252525;
+    border-radius: 5%;
 
 }
 
