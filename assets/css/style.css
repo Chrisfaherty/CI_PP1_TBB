@@ -467,6 +467,19 @@ footer{
     margin-bottom: 20px;
 }
 
+#contact-heading-text{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+#contact-text{
+    height: 50px;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
+}
+
 
 /* Packages */
 
