@@ -474,6 +474,16 @@ footer{
     background-color: aquamarine;
 }
 
+#packages div {
+    color: #252525;
+    width: 20%;
+    height: 500px;
+    display:inline-block;
+    padding: 20px 0 0 10px;
+    text-align: center;
+    border: 1px solid #252525
+}
+
 
 
 
