@@ -5,88 +5,68 @@
     padding: 0;
     border: none;
 }
-
-
 body{
     font-family: Lato, sans-serif;
     font-weight: 300;
     color:#3a3a3a;
 }
-
 /* Heading & logo */
-
-h1, h2 {
-    font-family: Abril Fatface, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #252525;
-}
-
-#logo {
-    float: left;
-    font-size: 250%;
-    margin-left: 30px;
-}
-
+    h1, h2 {
+        font-family: Abril Fatface, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #252525;
+    }
+    #logo {
+        float: left;
+        font-size: 250%;
+        margin-left: 30px;
+    }
 /* Navigation */
+    #menu{
+        font-size: 100%;
+        letter-spacing: 4px;
+        text-align: right;
+    }
+    #menu, #logo {
+        line-height: 75px;
 
-#menu{
-    font-size: 100%;
-    letter-spacing: 4px;
-    text-align: right;
-}
-
-#menu, #logo {
-    line-height: 75px;
-
-}
-
-#menu li {
-    display: inline-block;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#menu a{
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
+    }
+    #menu li {
+        display: inline-block;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    #menu a{
+        text-decoration: none;
+        color: inherit;
+    }
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    .active {
+        border-bottom: 1px solid #3a3a3a;
+    }
 /*hero-image & mission text */
-
-#hero-outer {
-    height: 825px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#mission-text, #mission-text h2 {
-    color: black;
-}
-
-#hero-image {
+    #hero-outer {
+        height: 825px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    #mission-text, #mission-text h2 {
+        color: black;
+    }
+    #hero-image {
     height: 825px;
     width: 100%;
     background: url('../images/hero-image.jpg')no-repeat center center;
-
-
-/* animates zoom effect on loading page */
-animation-name: hero-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
-}
-
+    /* animates zoom effect on loading page */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    }
 /*creates the level of zoom for the hero image*/
-
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -95,7 +75,6 @@ animation-fill-mode: forwards;
         transform: scale(1.1);
     }
 }
-
 #mission-text {
     font-size: 130%;
     font-family: Abril Fatface, sans-serif;
@@ -276,6 +255,11 @@ footer{
 /* For larger screens down to 1250px */
 
 @media  screen and (max-width: 1250px) {
+    
+    #logo{
+        font-size: 200%;
+    }
+
     #benefits{
         width: 65%;
         height: 1200px;
@@ -398,7 +382,13 @@ footer{
     #memory-lane-photos {
         column-count: 2;
     }
+}
+
+@media screen and (max-width: 400px){
     
+    #logo {
+        font-size: 130%;
+    }
 }
 
 /* About Us page */
