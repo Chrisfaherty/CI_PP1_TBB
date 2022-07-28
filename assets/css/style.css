@@ -542,3 +542,13 @@ footer{
     font-size: 150%;
     margin-top: 20px;
 }
+
+/* Form Styling*/
+
+.subscribe-section{
+    clear: left;
+    background: url(../images/form/form-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
