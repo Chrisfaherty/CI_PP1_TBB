@@ -70,7 +70,7 @@
                 position: absolute;}
 /* benefits */
         #benefits {
-                height: 825px;}
+                height: 500px;}
         #happy-health-left {
                 padding-top: 30px;
                 width: 33%;
@@ -122,22 +122,21 @@
 
 /* Pricing section on the home page*/
         #pricing-heading-section{
-                height: 150px;
-                margin-top: 30px;
+                margin-top: 0;
                 margin-bottom: 30px;}
         #packages {
-                height: 700px;
-                margin-top: 30px;
-                margin-left: 20%;}
+                height: 500px;
+                margin-top: 30px;}
         #packages div {
                 vertical-align: top;
+                padding-top: 10px;
                 background-color: #fafafa;
                 color: #252525;
-                width: 300px;
+                width: 250px;
                 height: 500px;
                 display:inline-block;
                 text-align: center;
-                margin-left: 50px;
+                margin-left: 30px;
                 border: 2px solid #252525;
                 border-radius: 5%;}    
         #packages ol {
@@ -155,7 +154,12 @@
         #packages h3{
                 font-weight: bold;
                 font-size: 150%;
-                margin-top: 20px;}              
+                margin-top: 20px;}
+        #packages footer{
+                font-weight: bold;
+                font-size: 150%;
+                vertical-align: bottom;
+        }            
 
 /* Events Section */
 
