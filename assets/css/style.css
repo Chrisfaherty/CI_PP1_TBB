@@ -120,6 +120,43 @@
                 background: url('../images/center-image-home.jpg') no-repeat center center;
                 height: 90%;}
 
+/* Pricing section on the home page*/
+        #pricing-heading-section{
+                height: 150px;
+                margin-top: 30px;
+                margin-bottom: 30px;}
+        #packages {
+                height: 700px;
+                margin-top: 30px;
+                margin-left: 20%;}
+        #packages div {
+                vertical-align: top;
+                background-color: #fafafa;
+                color: #252525;
+                width: 300px;
+                height: 500px;
+                display:inline-block;
+                text-align: center;
+                margin-left: 50px;
+                border: 2px solid #252525;
+                border-radius: 5%;}    
+        #packages ol {
+                margin-left: 10px;
+                padding: 30px;}
+        #pricing-heading{
+                text-align: center;
+                margin: 20px 0;
+                font-size: 280%;}
+        #pricing-text{
+                height: 50px;
+                text-align: center;
+                margin: 20px 0;
+                font-size: 200%;}
+        #packages h3{
+                font-weight: bold;
+                font-size: 150%;
+                margin-top: 20px;}              
+
 /* Events Section */
 
 #coffee-morning {
@@ -357,16 +394,15 @@ footer{
         .style-community-section  p{
             font-size: 80%;
             margin-bottom: 15px;}
-    /*Scale down center image*/
-    #image-center-section {
-        width: 220px;
-        height: 147px;
-        border: 1px solid #252525;
-        border-radius: 5%;}
-    #image-center-section-bg {
-        background: url('../images/image-center-220px.jpg') no-repeat center center;
-        height: 90%;
-
+    /*replace center image with a smaller image for mobile*/
+        #image-center-section {
+            width: 220px;
+            height: 147px;
+            border: 1px solid #252525;
+            border-radius: 5%;}
+        #image-center-section-bg {
+            background: url('../images/image-center-220px.jpg') no-repeat center center;
+            height: 90%;}
         }
 /* About Us page */
 
@@ -457,58 +493,7 @@ footer{
     font-size: 200%;
 }
 
-#pricing-heading-section{
-    height: 150px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
 
-
-
-#packages {
-    height: 700px;
-    margin-top: 30px;
-    margin-left: 20%;
- 
-}
-
-#packages div {
-    vertical-align: top;
-    background-color: #fafafa;
-    color: #252525;
-    width: 300px;
-    height: 500px;
-    display:inline-block;
-    text-align: center;
-    margin-left: 50px;
-    border: 2px solid #252525;
-    border-radius: 5%;
-
-}
-
-#packages ol {
-    margin-left: 10px;
-    padding: 30px;
-}
-
-#pricing-heading{
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-#pricing-text{
-    height: 50px;
-    text-align: center;
-    margin: 20px 0;
-    font-size: 200%;
-}
-
-#packages h3{
-    font-weight: bold;
-    font-size: 150%;
-    margin-top: 20px;
-}
 
 /* Form Styling*/
 
