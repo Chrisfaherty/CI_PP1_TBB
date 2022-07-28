@@ -397,7 +397,6 @@ footer{
         #image-center-section-bg {
             background: url('../images/image-center-220px.jpg') no-repeat center center;
             height: 90%;}
-
 /*scale down text on pricing section*/
         #pricing h2, h3{
                 font-size: 90%;}
@@ -405,7 +404,8 @@ footer{
                 font-size: 80%;}
         #pricing h1{
                 font-size: 130%;
-                padding: 0;}
+                padding: 0;
+                margin-top: -300px;}
         }
 
 /* About Us page */
