@@ -376,7 +376,7 @@ footer{
             height: 150px;
             padding: 0;}
     }
-/* To cover screen widths up to a maximum of 400px*/
+/* To cover screen widths up to a maximum of 800px*/
     @media screen and (max-width: 800px){
          /* Gallery photo columns*/
         #memory-lane-photos {
@@ -387,6 +387,7 @@ footer{
     @media screen and (max-width: 400px){
         /* logo font size scale*/
         #logo { font-size: 130%;}
+        /* Menu size scale*/
         #menu {  font-size: 80%;
                 letter-spacing: 2px;
                 text-align: left;}
