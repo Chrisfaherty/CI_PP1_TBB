@@ -203,6 +203,11 @@
                 margin-right: 10%;}
         #about-us-section{
                 margin-top: 30px;}
+        .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;}
 /* Contact section on the home page*/
         #contact-heading-section{
                 height: 50px;}
