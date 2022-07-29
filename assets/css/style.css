@@ -196,7 +196,8 @@
                 margin-left: 10%;
                 margin-right: 10%;}
         #about-us-section{
-                margin-top: 30px;}
+                margin-top: 30px;
+                text-align: center;}
 /* Contact section on the home page*/
         #contact-heading-section{
                 height: 50px;}
