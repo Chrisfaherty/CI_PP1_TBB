@@ -162,11 +162,11 @@
         #events h1{
                 font-size: 280%;
                 text-align: center;}
-        #coffee-morning {
+        #coffee-morning, #coffee-morning-2{
                 background: url('../images/coffee-morning.jpg') no-repeat center center;
                 height: 100%;
                 overflow: hidden;}
-        #park-walk {
+        #park-walk, #park-walk-2{
                 background: url('../images/park-walk.jpg') no-repeat center center;
                 height: 100%;
                 overflow: hidden;}
