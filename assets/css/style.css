@@ -346,29 +346,27 @@ footer{
                 height: auto;}
         #contact-heading-section h1{
                 font-size: 200%;
-                text-align: center;
-                padding: 0;
-                margin-top: 50px;}
+                text-align: center;}
         #contact-heading-section h3{
                 font-size: 90%;}
-        #location-section {
-                width: 50%;
+        #location-div {
+                height: 600px;
+                width: 100%;
                 margin: 0 auto;}
+        #location-div iframe{
+                height: 60%;
+                width: 90%;
+                left: 5%;
+                position:absolute;}
         #location-heading, #contact-heading {
+                text-align: center;
                 padding: 30px 0;
                 margin: 0;}
-         #location-div, #contact-div{
-                width: 100%;
-                padding: 0;}
-        #contact-section{
-                width: 49%;
-                display: inline-block;}
-
-
-
-    hr{
-        display: none;
-    }
+        #contact-div{
+                height: 600px;
+                width: 100%;}
+        hr{
+                display: none;}
 
 
 }
