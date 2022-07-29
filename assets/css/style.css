@@ -45,6 +45,7 @@
         #hero-image {
                 height: 825px;
                 width: 100%;
+                /* hero-image sorced from shutterstock.com */
                 background: url('../images/hero-image.jpg')no-repeat center center;
                 /* animates zoom effect on loading page */
                 animation-name: hero-zoom;
@@ -117,6 +118,7 @@
                 margin: 0 auto;
                 border-radius: 5%;}
         #image-center-section-bg {
+                /* hero-image sorced from shutterstock.com */
                 background: url('../images/center-image-home.jpg') no-repeat center center;
                 height: 90%;}
 /* Pricing section on the home page*/
@@ -439,6 +441,7 @@
                 border: 1px solid #252525;
                 border-radius: 5%;}
         #image-center-section-bg {
+                /* hero-image sorced from shutterstock.com */
                 background: url('../images/image-center-220px.jpg') no-repeat center center;
                 height: 90%;}
 /*scale down text on pricing section < 400px*/
@@ -500,7 +503,8 @@
 /* Form Styling*/
         .subscribe-section{
                 clear: left;
-                background: url(../images/form/form-image.jpg);
+                /* hero-image sorced from shutterstock.com */
+                background: url('../images/form/form-image.jpg');
                 background-size: cover;
                 background-position: center;
                 height: 1000px;}
@@ -522,5 +526,4 @@
                 border: none;
                 border-radius: 4px;
                 cursor: pointer;
-                float: right;
-        }
+                float: right;}
