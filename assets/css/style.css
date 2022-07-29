@@ -509,14 +509,14 @@
                 background-color: rgba(127,255,212, .7);
                 font-size: 120%;
                 max-width: 400px;
-                height: 350px;
+                height: 400px;
                 position: absolute;
                 left: 10%;
                 padding: 30px;}
         .subscribe-section label{
                 font-size: 100%;}
         input[type=submit] {
-                background-color: #04AA6D;
+                background-color: #353535;
                 color: white;
                 padding: 12px 20px;
                 border: none;
