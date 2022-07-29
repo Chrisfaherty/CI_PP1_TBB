@@ -121,7 +121,7 @@
                 height: 90%;}
 /* Pricing section on the home page*/
         #pricing{
-            height: 400px;
+                height: 400px;
         }
         #pricing h1{
                 font-size: 280%;
@@ -189,6 +189,19 @@
         #events h3 {
                 font-weight: 800;
         }
+/* About Us section on the home page*/
+        #about-us-text h1{
+                font-size: 280%;
+                text-align: center;
+                margin: 20px 0}
+        #about-us-text p{
+                text-align: center;
+                margin-left: 10%;
+                margin-right: 10%;}
+        #about-us-section{
+                margin-top: 30px;
+        }
+
 /* Contact section on the home page*/
         #contact-heading-section{
     height: 50px;}
@@ -303,7 +316,6 @@ footer{
         #pricing{
                 width: 65%;
                 margin: 0 auto;}
-                
         #pricing > div {
                 width: 100%;
                 clear: both;
@@ -316,22 +328,31 @@ footer{
         #events h1{
                 font-size: 200%;
                 text-align: center;
-            margin-top: 600px;}
+                margin-top: 600px;}
         #events > div {
                 width: 100%;
                 clear: both;
                 height: 150px;
                 padding: 0;}
+        #about-us-text h1{
+                font-size: 200%;
+                text-align: center;}
+        #about-us-text p{
+                text-align: center;}
+        #about-us-section{
+                margin-top: 30px;}
+        #about-us-section img {
+                max-width: 100%; 
+                height: auto;}
         #contact-heading-section h1{
                 font-size: 200%;
                 text-align: center;
                 padding: 0;
-                margin-top: 600px;}
+                margin-top: 50px;}
         #contact-heading-section h3{
                 font-size: 90%;}
         #location-section {
                 width: 50%;
-                height: 600px;
                 margin: 0 auto;}
         #location-heading, #contact-heading {
                 padding: 30px 0;
@@ -340,14 +361,10 @@ footer{
                 width: 100%;
                 padding: 0;}
         #contact-section{
-                height: 600px;
                 width: 49%;
                 display: inline-block;}
 
-    #about-us-section img {
-        max-width: 100%; 
-        height: auto;
-        }
+
 
     hr{
         display: none;
@@ -471,27 +488,18 @@ footer{
                 margin-top: 420px;}
         #events h2, h3{
                 font-size: 90%;}
+/*scale down text on about us section in the home page*/ 
+        #about-us-text h1{
+                font-size: 130%;
+                text-align: center;}
+        #about-us-text p{
+                font-size: 90%;
+                text-align: center;}
+        #about-us-section{
+                margin-top: 30px;}
 
         }
         
-
-/* About Us page */
-
-#about-us-section div{
-    text-align: center;
-    }
-
-#about-us-text-section h2 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-#about-us-text-section p {
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-}
 
 /* details Page */
 
