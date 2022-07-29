@@ -1,4 +1,5 @@
 # Tica Tica's Blind Box
+![Responsive Design Image](../Portfoilo-Project-1-CI/assets/images/readme.md/responsive-design-main.png)
 
 ## Features
 
