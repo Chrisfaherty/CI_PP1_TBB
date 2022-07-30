@@ -92,8 +92,18 @@ There are various different fetures in this project over the main home page with
 
 ### Features Left to Implement
     * A feature that I would like to implement in the future is to check out on the sight when you sign up for a subscription,
-    
+
 ## Testing
+
+* The site works on google Chrome, Safari & Firefox,
+* The three webpages were tested to be responsive as a desktop, tablet and mobile screensize,
+* All images and text was reviewed and confirmed to be readable,
+* The Form works as it requires the user to input a name, email & select a package before it can be submitted.
+
+### Bugs
+**Solved Bugs**
+* When working with the footer on the home pace in mobile the fotter would move up behind the contacts and location section.
+    * This was resolved by fixing the footers position to the bottom of the page and giving it a transparent background so that it could stay at the bottom of the screen and move with the page. 
 
 ### Validator Testing
 * HTML
@@ -106,21 +116,39 @@ There are various different fetures in this project over the main home page with
     * No errors or contrast were found when passing the site pages through the [official wave.webaim validator](https://wave.webaim.org/)
 
 * Performance
+    * The performance was tested in lighthouse on the chrome browser in both desktop and mobile formats on all pages.
+
+    **Home Page Desktop Performance**
+
     ![This is an screenshot of the Lighthouse home page desktop performance](assets/images/readme.md/lighthouse-index.html-desktop.png)
+
+    **Subscription Page Desktop Performance**
 
     ![This is an screenshot of the Lighthouse form page desktop performance](assets/images/readme.md/lighthouse-form.html-desktop.png)
 
+    **Gallery Page Desktop Performance**
+
     ![screenshot of the Lighthouse gallery page desktop performance](assets/images/readme.md/lighthouse-gallery.html-desktop.png)
+
+    **Home Page Mobile Performance**
 
     ![This is an screenshot of the Lighthouse home page mobile performance](assets/images/readme.md/lighthouse-index.html-mobile.png)
 
+    **Subscribe Page Mobile Performance**
+
     ![This is an screenshot of the Lighthouse form page mobile performance](assets/images/readme.md/lighthouse-form.html-mobile.png)
+
+    **Gallery Page Mobile Performance**
 
     ![This is an screenshot of the Lighthouse gallery page mobile performance](assets/images/readme.md/lighthouse-gallery.html-mobile.png)
 
 ### Unfixed Bugs
+* There is no unfixed bugs that I am aware of.
 
 ## Deployment
+* Tica's blind box site was deployed to GitHub page,
+* All of the commits and repositry info can be found on GitHub,
+**The link to live site can be found here - [Tica's Blind Box](https://chrisfaherty.github.io/Portfoilo-Project-1-CI/)
 
 ## Credits
 
