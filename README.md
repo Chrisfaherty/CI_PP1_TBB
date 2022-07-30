@@ -148,6 +148,14 @@ There are various different fetures in this project over the main home page with
 ## Deployment
 * Tica's blind box site was deployed to GitHub page,
 * All of the commits and repositry info can be found on GitHub,
+
+* The process to deploy a site to GitHub pages is as follows:
+    * Navigate to the settings tab at the top of the page in the navigation bar,
+    * Select pages on the left hand side of the settings nav bar,
+    * Once in pages the dropdown menu under branch select Main,
+    * Then click save and your URL will be generated shortly,
+    * Inorder to keep your deployed site up to date make sure to push your commits to GitHub.
+
 **The link to live site can be found here - [Tica's Blind Box](https://chrisfaherty.github.io/Portfoilo-Project-1-CI/)
 
 ## Credits
