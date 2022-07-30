@@ -41,6 +41,7 @@
 
 ### Validator Testing
 
+* No errors were found when passing the site through the official W3C validator
 ### Unfixed Bugs
 
 ## Deployment
