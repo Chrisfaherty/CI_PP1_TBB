@@ -8,16 +8,25 @@ The users that view this site will find all the relevent information about the p
 
 ## Features
 
-There are various different fetures in this project over the main home page with several sections to the gallery and submission's page. Lets dive a bit deeper into each feature in this section.
+There are various different fetures in this project over the main home page with several sections to the gallery and submission's page. Lets dive a bit deeper into each feature in this section. The colour scheme of this project is black and white to keep it looking clean and the accent colours are aquamarine.
 
 ### Existing Features
 
 * Navigation Bar
-    * The navigation bar is situated at the top of the page. It has a link in the Tica's Blind Box title to return the user back to  the top of the home page no matter what page they are on.
-    * 
+    * The navigation bar is situated at the top of the page. It has a link in the Tica's Blind Box title to return the user back to  the top of the home page no matter what page they are on. This logo link is positioned to the left of the header,
+    * The navigation links to the home page, submission form & gallery are all positioned to the right hand side of the header,
+    * The black text in the navigation bar links contrasts nicely with the white background and main hero image below,
+    * This Navigation bar is clear to tell the website you are on and intuative to use navigation between each page,
+    * The navigation bar colapses when viewed on movile where the 3 links Home, Subscribe & Gallery fit below the logo.
+
 ![This is an screenshot of the navigation bar](assets/images/readme.md/navigation-bar.png)
 
-**The landing page image section**
+* The landing page image section
+    * The landing page shows the name of the site in a floating box positioned above the main image. The box stands outr with a transparent aquamarine background,
+    * The text box also has a lead on sentance to get the reader to continue down the page,
+    * On mobile devices the background image will disapear and only show the text box,
+    * This section is used to intrigue the user to want to continue on and see what else in in the website.
+    
 ![This is an screenshot of the landing page](assets/images/readme.md/the-landing-page-image.png)
 
 **Benefits Section**
