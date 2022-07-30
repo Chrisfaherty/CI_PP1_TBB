@@ -21,21 +21,35 @@ There are various different fetures in this project over the main home page with
 
 ![This is an screenshot of the navigation bar](assets/images/readme.md/navigation-bar.png)
 
-* The landing page image section
+* The landing Page
     * The landing page shows the name of the site in a floating box positioned above the main image. The box stands outr with a transparent aquamarine background,
     * The text box also has a lead on sentance to get the reader to continue down the page,
     * On mobile devices the background image will disapear and only show the text box,
     * This section is used to intrigue the user to want to continue on and see what else in in the website.
-    
+
 ![This is an screenshot of the landing page](assets/images/readme.md/the-landing-page-image.png)
 
-**Benefits Section**
+* Benefits
+    * This section is used to remind the user of benefits they and their pet would enjoy.
+    * It highlights the main aspects this project looks to achieve happiness, good health, stylish pet and a supportive & interactive community,
+    * This section also has a fun center image that brings everything together, 
+    * The benefits section is set up for mobile as well and will stack ontop of eachother if it is viewed on a mobile device.
+
 ![This is an screenshot of the benefits section](assets/images/readme.md/benefits-section.png)
 
-**Packages Section**
+* Packages
+    * The packages section covers the four types of blind boxes we offer our users,
+    * The packages include a description of the contents that are insice each blind box and the monthly subscription cost for each,
+    * This section is set up to tier over eachother for tablet and and mobile screens.
+
 ![This is an screenshot of the packages section](assets/images/readme.md/packages-section.png)
 
-**Events Section**
+* Events Section
+    * This section shows the different events that are available to the communit, 
+    * The events have background images that have good contrast with the black text,
+    * The events also scale for tablet and mobile devices,
+    * Font awesome symboles were added to the headign of each event.
+    
 ![This is an screenshot of the events section](assets/images/readme.md/events-section.png)
 
 **About Us**
