@@ -1,11 +1,20 @@
 # Tica Tica's Blind Box
+
+Tica tica's blind box is a website for all pet lovers. The website highlights out main product which is blind box' full of exciting suprizes to put a smile on your pets face again and again. 
+
+The users that view this site will find all the relevent information about the product community how to sign up and also enjoy a gallery of images sent from our customers. The target demagraphic of this site are pet owners that are looking to spice up their pet's day.
+
 ![This is an screenshot of the responsive design image](assets/images/readme.md/responsive-design-main.png)
 
 ## Features
 
+There are various different fetures in this project over the main home page with several sections to the gallery and submission's page. Lets dive a bit deeper into each feature in this section.
+
 ### Existing Features
 
-**Navigation Bar**
+* Navigation Bar
+    * The navigation bar is situated at the top of the page. It has a link in the Tica's Blind Box title to return the user back to  the top of the home page no matter what page they are on.
+    * 
 ![This is an screenshot of the navigation bar](assets/images/readme.md/navigation-bar.png)
 
 **The landing page image section**
