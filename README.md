@@ -44,31 +44,55 @@ There are various different fetures in this project over the main home page with
 
 ![This is an screenshot of the packages section](assets/images/readme.md/packages-section.png)
 
-* Events Section
+* Events
     * This section shows the different events that are available to the communit, 
     * The events have background images that have good contrast with the black text,
     * The events also scale for tablet and mobile devices,
-    * Font awesome symboles were added to the headign of each event.
-    
+    * Font awesome symboles were added to the heading of the Park walk event.
+
 ![This is an screenshot of the events section](assets/images/readme.md/events-section.png)
 
-**About Us**
+* About Us
+    * This section covers who the owners are and the reason behind startign this companey,
+    * There is also a responsive image added to scale with the screen size.
+
 ![This is an screenshot of the about us section](assets/images/readme.md/about-us-section.png)
 
-**Location & Contact Section**
+* Location & Contact Section
+    * There is two columns here one for the location anf one for contact information. 
+    * For the location a google maps iframe was imbeded into the page with the exact location,
+    * The contact section covers our address, phone number, email & opening hours,
+    * Both columns are responsive to changing screen sizes.
+
 ![This is an screenshot of the location and contact section](assets/images/readme.md/location-and-contact-section.png)
 
-**The Footer**
+* The Footer 
+    * The footer section keeps the social media links static at the bottom of the page, 
+    * The facebook, Instagram & discord links open up a new webpace when they are clicked on,
+    * The icons were sourced and imported from font awosome, 
+    * To make the footer responsive for both mobile and desktop screens. It will stay th the bottom of your screen on mobile so you always have access to the links. 
+
 ![This is an screenshot of the footer section](assets/images/readme.md/the-footer-section.png)
 
-**Submission Form**
-![This is an screenshot of the submission form](assets/images/readme.md/submission-form.png)
+* Subscription Form
+    * The subscription form gathers the users data and what package they are intrested in,
+    * The styling alines with the home page where there is a background image and a aquamarine floating box,
+    * The form requires the name, email and a package to be selected.
+    * The form wont submit if all of the above are not chosen and the email address has to be a correct email.
 
-**Gallery**
+![This is an screenshot of the subscription form](assets/images/readme.md/submission-form.png)
+
+* Gallery
+    * The gallery is used to provide the used with images from events or images that are placed into our Discord community channel,
+    * These images can change with time as members request to have their pet added,
+    * It is also used to promote the product as you will see pets with clothing in the images,
+    * The images scale with the screen size as well.
+
 ![This is an screenshot of the galary page](assets/images/readme.md/gallery.png)
 
 ### Features Left to Implement
-
+    * A feature that I would like to implement in the future is to check out on the sight when you sign up for a subscription,
+    
 ## Testing
 
 ### Validator Testing
