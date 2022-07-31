@@ -1,10 +1,46 @@
 # Tica Tica's Blind Box
+(Developer: Christopher Faherty)
+
+![This is an screenshot of the responsive design image](docs/readme.md/features/responsive-design-main.png)
+
+[Live Webpage](https://chrisfaherty.github.io/CI_PP1_TBB/)
+
+## Table of Content
+
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
 Tica tica's blind box is a website for all pet lovers. The website highlights out main product which is blind box' full of exciting suprizes to put a smile on your pets face again and again. 
 
 The users that view this site will find all the relevent information about the product community how to sign up and also enjoy a gallery of images sent from our customers. The target demagraphic of this site are pet owners that are looking to spice up their pet's day.
 
-![This is an screenshot of the responsive design image](docs/readme.md/features/responsive-design-main.png)
 
 ## Features
 
@@ -118,17 +154,12 @@ There are various different fetures in this project over the main home page with
 * Performance
     * The performance was tested in lighthouse on the chrome browser in both desktop and mobile formats on all pages.
 
-    **Home Page Performance**
-
-    ![This is an screenshot of the Lighthouse home page desktop performance](docs/readme.md/testing/lighthouse-index.html-desktop.png)
-
-    **Subscription Page Performance**
-
-    ![This is an screenshot of the Lighthouse form page desktop performance](docs/readme.md/testing/lighthouse-form.html-desktop.png)
-
-    **Gallery Page Performance**
-
-    ![screenshot of the Lighthouse gallery page desktop performance](docs/readme.md/testing/lighthouse-gallery.html-desktop.png)
+    <details><summery>Home</summery><img src="docs/readme.md/testing/lighthouse-index.html-desktop.png">
+    </details>
+    <details><summery>Subscribe</summery><img src="docs/readme.md/testing/lighthouse-form.html-desktop.png">
+    </details>
+    <details><summery>Gallery</summery><img src="docs/readme.md/testing/lighthouse-gallery.html-desktop.png">
+    </details>
 
 ### Unfixed Bugs
 * There is no unfixed bugs that I am aware of.
