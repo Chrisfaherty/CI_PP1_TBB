@@ -9,7 +9,8 @@
 
 1. [Project Goals](#project-goals)
     1. [User Goals](#user-goals)
-    2. [Site Owner Goals](#site-owner-goals)
+    2. [Return User Goals](#returning-user)
+    3. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
     2. [User Requrements and Expectations](#user-requrements-and-expectations)
@@ -29,10 +30,9 @@
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
-    5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
     7. [Testing user stories](#testing-user-stories)
-8. [Bugs](#Bugs)
+8. [Bugs](#bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
@@ -67,10 +67,64 @@
 * Products clearly layed out with pricing.
 * A site that is Accessability focused.
 
-Tica tica's blind box is a website for all pet lovers. The website highlights out main product which is blind box' full of exciting suprizes to put a smile on your pets face again and again. 
+### User Stories
 
-The users that view this site will find all the relevent information about the product community how to sign up and also enjoy a gallery of images sent from our customers. The target demagraphic of this site are pet owners that are looking to spice up their pet's day.
+#### First-time  User
+1. As a first time user, I want to know what subscription packages are available.
+2. As a first time user, I want to know the package price range.
+3. As a first time user, I want to know the contact information.
+4. As a first time user, I want to know where the office is located.
+5. As a first time user, I want to be able to show my intrest in one of the packages and subscribe to hear more.
 
+#### Returning User
+6. As a returning user, I want to know what the upcomming events are. 
+7. As a returning user, I want to be able to access the social media links.
+8. As a returning user, I want to know the opening times.
+9. As a returning user , I want to be able to contact the the team.
+10. As a returning user, I want to be able to see the updated photos in the gallery.
+
+#### Site Owner
+11. As the site owner, I want users to keep up to date with package changes.
+12. As the site owner, I want users to be able to see the weekly events.
+13. As the site owner, I want users to be able to subscribe to the package they want.
+14. As the site owner, I want users to be able to contact us.
+
+## Design
+
+### Design Choice
+The site was designed to have a minimal look and highlight all the relevent components. The images look like they are floating with the colour and image choices that were used.
+
+### Color
+The colour scheme used in this project was white backgounds with black text. This went alogn with the suttle light gray highlights and aqua marine accent colour then a pop was required.
+
+### Fonts
+The fonts that were chosen were Lato for the logo and Abril Fatface for the content. Both of these fonts had a fall back of sans-serif.
+
+### Structure
+The home page is structured is an intuative way where all the relevent information is presented at the correct time. 
+* The benifets section tells you what you the intangible benifits from the product.
+* The packages gives a varity of entry options to the community.
+* The events then highlight the community aspect.
+* The gallery shows images of pets that have already signed up.
+* Then there is a subscription page to get in touch.
+
+### Wireframes
+
+## Technologies Used
+
+### Languages
+* HTML
+* CSS
+
+### Frameworks & Tools
+* Git
+* GitHub
+* Gitpod
+* Tinypng
+* Favicon.io
+* Font Awosome
+* Google Fonts
+* Balsamiq
 
 ## Features
 
@@ -107,6 +161,7 @@ There are various different fetures in this project over the main home page with
     * The packages section covers the four types of blind boxes we offer our users,
     * The packages include a description of the contents that are insice each blind box and the monthly subscription cost for each,
     * This section is set up to tier over eachother for tablet and and mobile screens.
+    * User stories covered 1, 2 & 11.
 
 ![This is an screenshot of the packages section](docs/readme.md/features/packages-section.png)
 
@@ -115,6 +170,7 @@ There are various different fetures in this project over the main home page with
     * The events have background images that have good contrast with the black text,
     * The events also scale for tablet and mobile devices,
     * Font awesome symboles were added to the heading of the Park walk event.
+    * User stories covered 6 & 12.
 
 ![This is an screenshot of the events section](docs/readme.md/features/events-section.png)
 
@@ -129,6 +185,7 @@ There are various different fetures in this project over the main home page with
     * For the location a google maps iframe was imbeded into the page with the exact location,
     * The contact section covers our address, phone number, email & opening hours,
     * Both columns are responsive to changing screen sizes.
+    * User stories covered 3, 4, 8 & 9
 
 ![This is an screenshot of the location and contact section](docs/readme.md/features/location-and-contact-section.png)
 
@@ -136,7 +193,8 @@ There are various different fetures in this project over the main home page with
     * The footer section keeps the social media links static at the bottom of the page, 
     * The facebook, Instagram & discord links open up a new webpace when they are clicked on,
     * The icons were sourced and imported from font awosome, 
-    * To make the footer responsive for both mobile and desktop screens. It will stay th the bottom of your screen on mobile so you always have access to the links. 
+    * To make the footer responsive for both mobile and desktop screens. It will stay th the bottom of your screen on mobile so you always have access to the links.
+    * User stories covered 7 & 14.
 
 ![This is an screenshot of the footer section](docs/readme.md/features/the-footer-section.png)
 
@@ -145,6 +203,7 @@ There are various different fetures in this project over the main home page with
     * The styling alines with the home page where there is a background image and a aquamarine floating box,
     * The form requires the name, email and a package to be selected.
     * The form wont submit if all of the above are not chosen and the email address has to be a correct email.
+    * User stories covered 5 & 13.
 
 ![This is an screenshot of the subscription form](docs/readme.md/features/submission-form.png)
 
@@ -153,15 +212,19 @@ There are various different fetures in this project over the main home page with
     * These images can change with time as members request to have their pet added,
     * It is also used to promote the product as you will see pets with clothing in the images,
     * The images scale with the screen size as well.
+    * User stories covered 10.
 
 ![This is an screenshot of the galary page](docs/readme.md/features/gallery.png)
 
 ### Features Left to Implement
-    * A feature that I would like to implement in the future is to check out on the sight when you sign up for a subscription,
+* A feature that I would like to implement in the future is to check out on the sight when you sign up for a subscription,
 
 ## Testing
 
-* The site works on google Chrome, Safari & Firefox,
+* The site works on the following browsers
+    * Google Chrome.
+    * Safari.
+    * Firefox.
 * The three webpages were tested to be responsive as a desktop, tablet and mobile screensize,
 * All images and text was reviewed and confirmed to be readable,
 * The Form works as it requires the user to input a name, email & select a package before it can be submitted.
@@ -217,8 +280,93 @@ There are various different fetures in this project over the main home page with
     <img src="docs/readme.md/testing/lighthouse-gallery.html-desktop.png">
     </details>
 
+### Testing user stories
+1. As a first time user, I want to know what subscription packages are available.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Packages | Scroll down to the packages section | Locating the four different packages | Works as expected |
+
+2. As a first time user, I want to know the package price range.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Packages | Scroll down to the packages section | Locating the four different packages prices | Works as expected |
+
+3. As a first time user, I want to know the contact information.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Contact | Scroll down to the contact section | Locating the contact information | Works as expected |
+
+4. As a first time user, I want to know where the office is located.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Location | Scroll down to the location section | Locating the loaction information | Works as expected |
+
+5. As a first time user, I want to be able to show my intrest in one of the packages and subscribe to hear more.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected |
+
+6. As a returning user, I want to know what the upcomming events are.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Events | Scroll down to the events section | Locating the weekly events | Works as expected |
+
+7. As a returning user, I want to be able to access the social media links.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Social Media | Scroll down to the footer section and select the link to the social platform | Locating the three different social links | Works as expected|
+
+8. As a returning user, I want to know the opening times.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Opening Times | Scroll down to the contact section | Locating the opening times | Works as expected|
+
+9. As a returning user , I want to be able to contact the the team.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Contact | Scroll down to the contact section | Locating the phone number and email address | Works as expected|
+
+10. As a returning user, I want to be able to see the updated photos in the gallery.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Gallery | Select the gallery link in the navigation bar, then navigate to the gallery page | Locating the gallery images | Works as expected|
+
+11. As the site owner, I want users to keep up to date with package changes.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Packages | Scroll down to the packages section | Locating the four different packages | Works as expected|
+
+12. As the site owner, I want users to be able to see the weekly events.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Events | Scroll down to the events section | Locating the different weekly events | Works as expected|
+
+13. As the site owner, I want users to be able to subscribe to the package they want.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected|
+
+14. As the site owner, I want users to be able to contact us.
+
+| **Feature** | **Action** | **Expected Results** | **Actual Result** |
+|-------------|------------|----------------------|-------------------|
+| Contact | Scroll down to the contact section | Locating the contact number and email address | Works as expected|
+
 ### Unfixed Bugs
-* There is no unfixed bugs that I am aware of.
+* There is no unfixed bugs.
 
 ## Deployment
 * Tica's blind box site was deployed to GitHub page,
