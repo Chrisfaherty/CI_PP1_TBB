@@ -128,7 +128,7 @@
 /* Pricing section on the home page*/
         #pricing{
                 height: 400px;}
-        #pricing h1{
+        #pricing h2{
                 font-size: 280%;
                 text-align: center;}  
         #seasonal {
@@ -161,12 +161,12 @@
         #pricing li{
                 margin-top: 10px;
                 margin-left: 20px}
-        #pricing h2, h3{
+        #pricing h3, h4{
                 margin-top: 10px;
                 text-align: center;}
 
 /* Events Section */
-        #events h1{
+        #events h2{
                 font-size: 280%;
                 text-align: center;}
 /* this image was sources from Pexels.com and is from Bianca Gasparoto*/
@@ -193,13 +193,13 @@
                 text-align: center;
                 border: 2px solid white;
                 box-sizing: border-box;}
-        #events h2 {
-                color: #252525;}
         #events h3 {
+                color: #252525;}
+        #events h4 {
                 font-weight: 800;}
 
 /* About Us section on the home page*/
-        #about-us-text h1{
+        #about-us-text h2{
                 font-size: 280%;
                 text-align: center;
                 margin: 20px 0}
@@ -219,7 +219,7 @@
 /* Contact section on the home page*/
         #contact-heading-section{
                 height: 50px;}
-        #contact-heading-text h1{
+        #contact-heading-text h2{
                 font-size: 280%;
                 text-align: center;}
         #location-section{
@@ -240,7 +240,7 @@
                 width: 45%;
                 margin-bottom: 30px;}
         #location-div iframe{
-                height: 60%;
+                height: 40%;
                 width: 45%;
                 left: 5%;
                 position:absolute;}
@@ -249,9 +249,9 @@
                 margin-bottom: 20px;}
         #location-heading, #contact-heading {
                 text-align: center;}
-        #contact-div h2{
-                margin-bottom: 30px;}
         #contact-div h3{
+                margin-bottom: 30px;}
+        #contact-div h4{
                 margin-top :40px;
                 font-weight: bold;
                 font-size: 150%;
@@ -299,7 +299,7 @@
                 width: 65%;
                 height: 1200px;
                 margin: 0 auto;}
-        #benefits h1{
+        #benefits h2{
                 font-size: 200%;}
         #benefits-heading {
                 padding: 30px 0;
@@ -325,11 +325,11 @@
                 padding: 0;}
         #pricing li{
                 margin-left: 30px;}
-        #pricing h1{
+        #pricing h2{
                 font-size: 200%;}
 
 /* Events < 1250px*/
-        #events h1{
+        #events h2{
                 font-size: 200%;
                 text-align: center;
                 margin-top: 600px;}
@@ -362,7 +362,7 @@
                 width: 100%;
                 margin: 0 auto;}
         #location-div iframe{
-                height: 60%;
+                height: 40%;
                 width: 90%;
                 left: 5%;
                 position:absolute;}
@@ -405,7 +405,7 @@
                 margin: 0 auto;}
         .happy-health-section, .style-community-section {
                 width: inherit;}
-        .happy-health-section h2, .style-community-section h2 {
+        .happy-health-section h3, .style-community-section h3 {
                 width: 100%;
                 text-align: center;}
         .happy-health-section p, .style-community-section p {
@@ -451,17 +451,17 @@
                 display: none;}
 
 /*Scale down benefits heading font size below 400px*/
-        #benefits h1{
+        #benefits h2{
                 font-size: 130%;}
 
 /*Scale down benefits text font size below 400px*/
-        .happy-health-section h2{
+        .happy-health-section h3{
                 font-size: 90%;
                 margin-bottom: 5px;}
         .happy-health-section  p{
                 font-size: 80%;
                 margin-bottom: 15px;}
-        .style-community-section h2{
+        .style-community-section h3{
                 font-size: 90%;
                 margin-bottom: 5px;}
         .style-community-section  p{
@@ -480,34 +480,36 @@
                 height: 90%;}
 
 /*scale down text on pricing section < 400px*/
-        #pricing h2, h3{
+        #pricing h3, h4{
                 font-size: 90%;}
         #pricing li{
                 font-size: 80%;}
-        #pricing h1{
+        #pricing h2{
                 font-size: 130%;
                 padding: 0;
                 margin-top: -300px;}
 
-/*scale down text on contact section < 400px*/     
-        #contact-heading-section h1{
+/*scale down text on contact section < 400px*/   
+        #contact-heading-section h2{
                 font-size: 130%;
                 text-align: center;
                 padding: 0;
                 margin-top: 250px;}
-        #contact-heading-section h2{
+        #contact-heading-section h3{
                 font-size: 90%;}
+        #location-section h2{
+                font-size: 100%;}
 
 /*scale down text on events section < 400px*/                 
-        #events h1{
+        #events h2{
                 font-size: 130%;
                 padding: 0;
                 margin-top: 420px;}
-        #events h2, h3{
+        #events h3, h4{
                 font-size: 90%;}
 
 /*scale down text on about us section in the home page < 400px */ 
-        #about-us-text h1{
+        #about-us-text h2{
                 font-size: 130%;
                 text-align: center;}
         #about-us-text p{
@@ -520,9 +522,9 @@
 /*scale down text location and contact section in the home page < 400px*/
         #location-section {
                 height: 100px;}
-        #location-section h2{
-                font-size: 90%;}
         #location-section h3{
+                font-size: 90%;}
+        #location-section h4{
                 font-size: 90%;}
         #location-section p{
                 font-size: 90%;}
@@ -531,13 +533,13 @@
         #contact-heading{
                 margin: 0;
                 padding-bottom: 10px;}
-        #contact-heading h3{
+        #contact-heading h4{
                 padding-top: 30px;}
         .child{
                 margin: 0;}
         .subscribe-section{
                 font-size: 80%;}
-        .subscribe-section h2{
+        .subscribe-section h3{
                 font-size: 90%;}}
 
 /* Form Styling*/
