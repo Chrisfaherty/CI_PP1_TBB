@@ -118,29 +118,17 @@ There are various different fetures in this project over the main home page with
 * Performance
     * The performance was tested in lighthouse on the chrome browser in both desktop and mobile formats on all pages.
 
-    **Home Page Desktop Performance**
+    **Home Page Performance**
 
-    ![This is an screenshot of the Lighthouse home page desktop performance](assets/images/readme.md/lighthouse-index.html-desktop.png)
+    ![This is an screenshot of the Lighthouse home page desktop performance](docs/readme.md/testing/lighthouse-index.html-desktop.png)
 
-    **Subscription Page Desktop Performance**
+    **Subscription Page Performance**
 
-    ![This is an screenshot of the Lighthouse form page desktop performance](assets/images/readme.md/lighthouse-form.html-desktop.png)
+    ![This is an screenshot of the Lighthouse form page desktop performance](docs/readme.md/testing/lighthouse-form.html-desktop.png)
 
-    **Gallery Page Desktop Performance**
+    **Gallery Page Performance**
 
-    ![screenshot of the Lighthouse gallery page desktop performance](assets/images/readme.md/lighthouse-gallery.html-desktop.png)
-
-    **Home Page Mobile Performance**
-
-    ![This is an screenshot of the Lighthouse home page mobile performance](assets/images/readme.md/lighthouse-index.html-mobile.png)
-
-    **Subscribe Page Mobile Performance**
-
-    ![This is an screenshot of the Lighthouse form page mobile performance](assets/images/readme.md/lighthouse-form.html-mobile.png)
-
-    **Gallery Page Mobile Performance**
-
-    ![This is an screenshot of the Lighthouse gallery page mobile performance](assets/images/readme.md/lighthouse-gallery.html-mobile.png)
+    ![screenshot of the Lighthouse gallery page desktop performance](docs/readme.md/testing/lighthouse-gallery.html-desktop.png)
 
 ### Unfixed Bugs
 * There is no unfixed bugs that I am aware of.
