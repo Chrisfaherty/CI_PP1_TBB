@@ -24,7 +24,7 @@
     1. [Languages](#languages)
     2. [Frameworks & Tools](#frameworks-&-tools)
 5. [Features](#features)
-6. [Testing](#validation)
+6. [Testing](#testing)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
@@ -36,6 +36,36 @@
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
+
+## Project Goals
+
+### User Goals
+* Finding a subscription service that that offers a selection of pet blind boxes.
+* Have well detailed package options.
+* Have a vibrant community.
+* Have contact and location information.
+
+### Site Owner Goals
+* Increase the number of monthly subscribers.
+* Get more eyes on the product.
+* Provide an easy path for new customers to join the community.
+* Provide all the essencial information the customer requires to make a decission.
+
+## User Experiance
+
+### Target Audience
+* People with pets.
+* People that like keep their pets up to fashion.
+* People looking to get to know other pet owners in their area.
+* People looking to join a community of like minded people.
+
+### User Requirements and Expectations
+* A intuative navigation bar.
+* All relevent information can be found with out an issue.
+* All links and functions work as expected.
+* Straight forward way to get in contact with the business.
+* Products clearly layed out with pricing.
+* A site that is Accessability focused.
 
 Tica tica's blind box is a website for all pet lovers. The website highlights out main product which is blind box' full of exciting suprizes to put a smile on your pets face again and again. 
 
@@ -145,20 +175,46 @@ There are various different fetures in this project over the main home page with
 * HTML
     * No errors were found when passing the site pages through the [official W3C validator](https://validator.w3.org/)
 
+    <details><summary>Home</summary>
+    <img src="docs/readme.md/testing/html-validator-index.html.png">
+    </details>
+    <details><summary>Subscribe</summary>
+    <img src="docs/readme.md/testing/html-validator-form.html.png">
+    </details>
+    <details><summary>Gallery</summary>
+    <img src="docs/readme.md/testing/html-validator-gallery.html.png">
+    </details>
+
 * CSS
     * No errors were found when passing the site pages through the [official (Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+    <details><summary>Image</summary>
+    <img src="docs/readme.md/testing/css-validator.png">
+    </details>
 
 * Accessibility
     * No errors or contrast were found when passing the site pages through the [official wave.webaim validator](https://wave.webaim.org/)
 
-* Performance
-    * The performance was tested in lighthouse on the chrome browser in both desktop and mobile formats on all pages.
+    <details><summary>Home</summary>
+    <img src="docs/readme.md/testing/accessability-index.html.png">
+    </details>
+    <details><summary>Subscribe</summary>
+    <img src="docs/readme.md/testing/accessability-form.html.png">
+    </details>
+    <details><summary>Gallery</summary>
+    <img src="docs/readme.md/testing/accessability-gallery.html.png">
+    </details>
 
-    <details><summery>Home</summery><img src="docs/readme.md/testing/lighthouse-index.html-desktop.png">
+* Performance
+    * The performance was tested in lighthouse on the chrome browser on all pages.
+
+    <details><summary>Home</summary>
+    <img src="docs/readme.md/testing/lighthouse-index.html-desktop.png">
     </details>
-    <details><summery>Subscribe</summery><img src="docs/readme.md/testing/lighthouse-form.html-desktop.png">
+    <details><summary>Subscribe</summary>
+    <img src="docs/readme.md/testing/lighthouse-form.html-desktop.png">
     </details>
-    <details><summery>Gallery</summery><img src="docs/readme.md/testing/lighthouse-gallery.html-desktop.png">
+    <details><summary>Gallery</summary>
+    <img src="docs/readme.md/testing/lighthouse-gallery.html-desktop.png">
     </details>
 
 ### Unfixed Bugs
@@ -175,9 +231,9 @@ There are various different fetures in this project over the main home page with
     * Then click save and your URL will be generated shortly,
     * Inorder to keep your deployed site up to date make sure to push your commits to GitHub.
 
-**The link to live site can be found here - [Tica's Blind Box](https://chrisfaherty.github.io/Portfoilo-Project-1-CI/)
-
 ## Credits
+* Insperation was taken from the love running project with certain aspects of code. It is also commented in the code.
+* W3Schools was also used for specific parts of the code.
 
 ### Content
 

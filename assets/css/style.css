@@ -36,7 +36,7 @@
         .active {
                 border-bottom: 1px solid #3a3a3a;}
 
-/*hero-image & mission text */
+/*hero-image & mission text - the hero image layout with the image zoom was sourced from the love running project*/
         #hero-outer {
                 height: 825px;
                 width: 100%;
@@ -294,7 +294,7 @@
         #memory-lane-photos > img {
                 width: 100%;}
 
-/* Media Queries for responsive design */
+/* Media Queries for responsive design the base code for the media query was sourced from the love running project*/
 /* For larger screens down to 1250px */
         @media  screen and (max-width: 1250px) {                        
         #logo{
