@@ -13,7 +13,7 @@
     3. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
@@ -51,7 +51,7 @@
 * Provide an easy path for new customers to join the community.
 * Provide all the essencial information the customer requires to make a decission.
 
-## User Experiance
+## User Experience
 
 ### Target Audience
 * People with pets.
@@ -91,10 +91,10 @@
 
 ## Design
 
-### Design Choice
+### Design Choices
 The site was designed to have a minimal look and highlight all the relevent components. The images look like they are floating with the colour and image choices that were used.
 
-### Color
+### Colour
 The colour scheme used in this project was white backgounds with black text. This went alogn with the suttle light gray highlights and aqua marine accent colour then a pop was required.
 
 ### Fonts
@@ -303,11 +303,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Packages | Scroll down to the packages section | Locating the four different packages | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-1-2-11-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-1-2-11-pt2.png">
+</details>
+
 2. As a first time user, I want to know the package price range.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Packages | Scroll down to the packages section | Locating the four different packages prices | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-1-2-11-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-1-2-11-pt2.png">
+</details>
 
 3. As a first time user, I want to know the contact information.
 
@@ -315,11 +325,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Contact | Scroll down to the contact section | Locating the contact information | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt2.png">
+</details>
+
 4. As a first time user, I want to know where the office is located.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Location | Scroll down to the location section | Locating the loaction information | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt2.png">
+</details>
 
 5. As a first time user, I want to be able to show my intrest in one of the packages and subscribe to hear more.
 
@@ -327,11 +347,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected |
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-5-13-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-5-13-pt2.png">
+</details>
+
 6. As a returning user, I want to know what the upcomming events are.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Events | Scroll down to the events section | Locating the weekly events | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-6-12-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-6-12-pt2.png">
+</details>
 
 7. As a returning user, I want to be able to access the social media links.
 
@@ -339,11 +369,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Social Media | Scroll down to the footer section and select the link to the social platform | Locating the three different social links | Works as expected|
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-7-14-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-7-14-pt2.png">
+</details>
+
 8. As a returning user, I want to know the opening times.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Opening Times | Scroll down to the contact section | Locating the opening times | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt2.png">
+</details>
 
 9. As a returning user , I want to be able to contact the the team.
 
@@ -351,11 +391,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Contact | Scroll down to the contact section | Locating the phone number and email address | Works as expected|
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-3-4-8-9-pt2.png">
+</details>
+
 10. As a returning user, I want to be able to see the updated photos in the gallery.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Gallery | Select the gallery link in the navigation bar, then navigate to the gallery page | Locating the gallery images | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-10-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-10-pt2.png">
+</details>
 
 11. As the site owner, I want users to keep up to date with package changes.
 
@@ -363,11 +413,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Packages | Scroll down to the packages section | Locating the four different packages | Works as expected|
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-1-2-11-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-1-2-11-pt2.png">
+</details>
+
 12. As the site owner, I want users to be able to see the weekly events.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Events | Scroll down to the events section | Locating the different weekly events | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-6-12-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-6-12-pt2.png">
+</details>
 
 13. As the site owner, I want users to be able to subscribe to the package they want.
 
@@ -375,11 +435,21 @@ There are various different fetures in this project over the main home page with
 |-------------|------------|----------------------|-------------------|
 | Subscription | In the navigation bar select the subscribe link, Then you can fill out thr form to subscribe | Locating the subscription form | Works as expected|
 
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-5-13-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-5-13-pt2.png">
+</details>
+
 14. As the site owner, I want users to be able to contact us.
 
 | **Feature** | **Action** | **Expected Results** | **Actual Result** |
 |-------------|------------|----------------------|-------------------|
 | Contact | Scroll down to the contact section | Locating the contact number and email address | Works as expected|
+
+<details><summary>Screenshots</summary>
+<img src="docs/readme.md/user stories/user-stories-7-14-pt1.png">
+<img src="docs/readme.md/user stories/user-stories-7-14-pt2.png">
+</details>
 
 ### Unfixed Bugs
 * There is no unfixed bugs.
