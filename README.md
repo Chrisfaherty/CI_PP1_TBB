@@ -13,25 +13,20 @@
     3. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requirements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Colour](#colour)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
-    2. [Frameworks & Tools](#frameworks-&-tools)
+    2. [Framework & Tools](#framework-&-tools)
 5. [Features](#features)
 6. [Testing](#testing)
-    1. [HTML Validation](#HTML-validation)
-    2. [CSS Validation](#CSS-validation)
-    3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
+    1. [Testing user stories](#testing-user-stories)
 8. [Bugs](#bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
@@ -132,7 +127,7 @@ The home page is structured is an intuative way where all the relevent informati
 * HTML
 * CSS
 
-### Frameworks & Tools
+### Framework & Tools
 * Git
 * GitHub
 * Gitpod
@@ -247,7 +242,7 @@ There are various different fetures in this project over the main home page with
 
 ### Bugs
 **Solved Bugs**
-* When working with the footer on the home pace in mobile the fotter would move up behind the contacts and location section.
+* When working with the footer on the home pace in mobile the footer would move up behind the contacts and location section.
     * This was resolved by fixing the footers position to the bottom of the page and giving it a transparent background so that it could stay at the bottom of the screen and move with the page. 
 
 ### Validator Testing
@@ -481,3 +476,7 @@ There are various different fetures in this project over the main home page with
 
 * Any image not mentioned above is owned by the developer.
 
+## Acknowledgements
+I would like to take the opertunity to thank:
+* My Mentor Mo Shami for the great feedback productive meetings and guiding me to finishing this project.
+* I would also like to thank the Code institute team for all the support and material to assist with this project.
