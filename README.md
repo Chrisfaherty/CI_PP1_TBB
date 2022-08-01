@@ -23,7 +23,7 @@
     5. [Wireframes](#wireframes)
 4. [Technologies Used](#technologies-used)
     1. [Languages](#languages)
-    2. [Framework & Tools](#framework-&-tools)
+    2. [Framework and Tools](#framework-and-tools)
 5. [Features](#features)
 6. [Testing](#testing)
     1. [Testing user stories](#testing-user-stories)
@@ -127,7 +127,7 @@ The home page is structured is an intuative way where all the relevent informati
 * HTML
 * CSS
 
-### Framework & Tools
+### Framework and Tools
 * Git
 * GitHub
 * Gitpod
